@@ -1,5 +1,45 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0; 
+}
+h1 {
+  text-align: center;
+  color: bisque;
+  background-color: darkslategrey;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+nav {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a:link {
+  color: darkslategray;
+  
+}
+a:visited {
+  color: blanchedalmond;
+}
+figcaption {
+  text-align: center;
+  font-size: small;
+}
+p#featured-property{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkslategrey;
+  width: 800px;
+}
+div#details {
+  display: inline-block;
+  width: 24.84%;
+  background-color: lightslategray;
+  text-align: center;
 }
